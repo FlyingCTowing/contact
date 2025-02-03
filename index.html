@@ -7,50 +7,75 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f4f4f4;
+            background-color: #f8f9fa;
             margin: 0;
             padding: 0;
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
+            justify-content: center;
             height: 100vh;
         }
         .container {
             background: white;
             padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
             max-width: 400px;
             width: 90%;
         }
         .logo {
-            width: 150px; /* Adjust size as needed */
+            width: 150px; /* Adjust as needed */
             height: auto;
             margin-bottom: 15px;
         }
         h1 {
             color: #333;
+            margin-bottom: 5px;
         }
         p {
             font-size: 18px;
-            color: #666;
+            color: #555;
+            margin: 5px 0;
         }
         .call-button {
-            display: inline-block;
-            padding: 15px 25px;
-            font-size: 20px;
+            display: block;
+            padding: 15px;
+            font-size: 18px;
             color: white;
             background-color: #007BFF;
             border: none;
-            border-radius: 5px;
+            border-radius: 6px;
             text-decoration: none;
-            margin-top: 20px;
+            margin-top: 15px;
             transition: 0.3s;
         }
         .call-button:hover {
             background-color: #0056b3;
+        }
+        .contact-section {
+            margin-top: 25px;
+            text-align: center;
+            padding: 20px;
+            border-top: 2px solid #ddd;
+        }
+        .contact-info {
+            font-size: 16px;
+            color: #333;
+            margin: 8px 0;
+        }
+        .facebook-icon {
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .facebook-icon img {
+            width: 40px;
+            height: auto;
+            transition: 0.3s;
+        }
+        .facebook-icon img:hover {
+            opacity: 0.7;
         }
     </style>
 </head>
@@ -59,8 +84,17 @@
     <div class="container">
         <img src="logo.png" alt="Flying C Towing Logo" class="logo">
         <h1>Flying C Towing</h1>
-        <p>Reliable towing services, 24/7. Call us now!</p>
-        <a href="tel:7622591100" class="call-button">Call Now</a>
+        <p>Reliable towing in and around Jasper, GA</p>
+        <a href="tel:7063839307" class="call-button">Call Now</a>
+
+        <div class="contact-section">
+            <h2>Contact for a Quick Quote</h2>
+            <p class="contact-info">📞 Call or Text: <a href="tel:7622591100">762-259-1100</a></p>
+            <p class="contact-info">📧 Email: <a href="mailto:info@flyingctowing.com">contact@flyingctowing.com</a></p>
+            <a href="https://facebook.com/FlyingCTowing" target="_blank" class="facebook-icon">
+                <img src="facebook-icon.png" alt="Facebook">
+            </a>
+        </div>
     </div>
 
 </body>
